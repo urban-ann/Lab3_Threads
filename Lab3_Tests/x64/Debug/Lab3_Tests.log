@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  test.cpp
+gtestd.lib(gtest-all.obj) : warning LNK4099: "gtestd.pdb" PDB не найден с "gtestd.lib(gtest-all.obj)" или на "C:\Users\User\source\repos\Lab3_Threads\x64\Debug\gtestd.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+gtest_maind.lib(gtest_main.obj) : warning LNK4099: "gtest_maind.pdb" PDB не найден с "gtest_maind.lib(gtest_main.obj)" или на "C:\Users\User\source\repos\Lab3_Threads\x64\Debug\gtest_maind.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+test.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl ThreadController::ThreadController(int,int)" (??0ThreadController@@QEAA@HH@Z) в функции "private: virtual void __cdecl ThreadControllerTest_InitializationTest_Test::TestBody(void)" (?TestBody@ThreadControllerTest_InitializationTest_Test@@EEAAXXZ).
+test.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl ThreadController::~ThreadController(void)" (??1ThreadController@@QEAA@XZ) в функции "private: virtual void __cdecl ThreadControllerTest_InitializationTest_Test::TestBody(void)" (?TestBody@ThreadControllerTest_InitializationTest_Test@@EEAAXXZ).
+test.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __cdecl ThreadController::SimulateMarkerStep(int,int)" (?SimulateMarkerStep@ThreadController@@QEAA_NHH@Z) в функции "private: virtual void __cdecl ThreadControllerTest_CriticalSectionMarkingTest_Test::TestBody(void)" (?TestBody@ThreadControllerTest_CriticalSectionMarkingTest_Test@@EEAAXXZ).
+C:\Users\User\source\repos\Lab3_Threads\x64\Debug\Lab3_Tests.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
